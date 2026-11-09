@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use or build upon Q-Shield in your research or software, please cite it using the metadata below."
+title: "Q-Shield: An AI-Driven Adaptive Hybrid QKD and Post-Quantum Cryptographic System for Tactical Communications"
+version: 0.1.0
+date-released: 2026-10-28
+license: GPL-3.0
+authors:
+  - family-names: "Pandey"
+    given-names: "Diptanshu"
+    affiliation: "Vishwakarma Institute of Technology, Pune"
