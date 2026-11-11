@@ -3,13 +3,6 @@ from scipy.linalg import toeplitz
 
 
 class QShieldPostProcessor:
-    """
-    Module 3 of Q-Shield: Classical Post-Processing Engine.
-    Implements:
-      1. Shor-Preskill Quantum Secrecy Rate Bound: R = 1 - 2 * H_2(e)
-      2. Multi-Pass Cascade Parity Reconciliation with Back-Tracking (Domino Effect)
-      3. Modulo-2 Toeplitz Matrix Universal-2 Privacy Amplification
-    """
 
     def __init__(self, seed=42):
         self.rng = np.random.default_rng(seed)
